@@ -1,0 +1,1787 @@
+
+/* HOME PAGE STYLING STARTS HERE */
+
+
+
+nav{
+    padding-top: 1% !important;
+    padding-bottom: 1% !important;
+    padding-right: 5%;
+    padding-left: 5%;
+    /* height: auto !important; */
+    z-index: 50 !important;
+    background: white !important;
+    border: transparent !important;
+
+}
+
+.navbar-nav > .active > a { 
+    background-color: #3399ff !important ; 
+    color: white !important;
+}
+
+.navColor{
+    color: black !important;
+}
+
+.navimg{
+    width: 150px;
+    margin-top: -11%;
+    
+}
+
+.main{
+    width: 100%;
+    /* height: 700px; */
+    
+}
+
+.mainimg{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+
+}
+
+
+
+.serve{
+    width: 100%;
+    height: auto;
+    text-align: center;
+}
+
+h3{
+    font-size: 10px;
+}
+
+.con4{
+    height: 300px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
+   
+}
+
+.con6{
+    /* width: 32%; */
+    height: 300px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(255, 166, 0, 0.594),rgba(255, 166, 0, 0.606)), url(../images/image.axd.webp);
+    background-size: cover;
+    z-index: 1;
+
+   
+}
+
+.con7{
+    /* width: 32%; */
+    height: 300px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(169, 19, 19, 0.683),rgba(210, 19, 19, 0.642)), url(../images/Gear-Hair-Straighteners-1289168084.jpg.webp);
+    background-size: cover;
+    z-index: 1;
+
+   
+}
+
+.con8{
+    /* width: 32%; */
+    height: 300px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(39, 19, 169, 0.681),rgba(32, 19, 210, 0.657)), url(../Images/aromas-used-for-massages-2-scaled.jpg);
+    background-size: cover;
+    z-index: 1;
+
+   
+}
+
+.con5{
+    width: 100%;
+    height: inherit;
+    object-fit: cover;
+}
+
+.overlay{
+    position: absolute;
+    opacity: 5;
+    z-index: 3;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+}
+
+.con12{
+    margin-top: 2%;
+}
+
+
+
+.con9{
+    /* width: 32%; */
+    height: 300px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(19, 169, 107, 0.667),rgba(19, 210, 35, 0.692)), url(../Images/Female_Hair_Oil_732x549-thumbnail-732x549.jpg);
+    background-size: cover;
+    z-index: 1;
+
+   
+}
+
+.con10{
+    /* width: 32%; */
+    height: 300px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(169, 19, 99, 0.693),rgba(210, 19, 146, 0.639)), url(../Images/ShampooBlog1_1.jpg);
+    background-size: cover;
+    z-index: 1;
+
+   
+}
+
+.con11{
+    /* width: 32%; */
+    height: 300px;
+    /* position: relative; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image:linear-gradient(rgba(169, 99, 19, 0.732),rgba(201, 210, 19, 0.726)), url(../Images/productimg.jpeg);
+    background-size: cover;
+    z-index: 1;
+
+   
+}
+
+/* welcome section styling  */
+
+.wel0{
+    margin-top: 3%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+h2{
+    font-size: 20px;
+    color: #3399ff;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.welImg{
+    width: 200px;
+    align-self: center;
+    
+}
+
+.wel2{
+    width: 60%;
+    /* border-left: 2px solid rgba(0, 0, 255, 0.066); */
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    /* word-break: break-all; */
+    
+}
+
+/* haircare products styling */
+
+.haircare{
+    width: 100%;
+    height: auto;
+    /* background-color: #3399ff; */
+    margin-top: 5%;
+    padding-bottom: 20px;
+   
+   
+}
+
+
+
+
+.hairimg{
+
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    align-self: center;
+    border: 3px solid #3399ff;
+    
+}
+
+.hair1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+}
+
+.hairtext{
+    text-align: center;
+    color: black;
+    font-family: 'Times New Roman', Times, serif;
+    text-decoration:underline;
+    padding: 10px;
+    text-decoration-color: black;
+    text-decoration-style: double;
+    text-decoration: underline;
+    text-underline-position: under;
+
+    
+}
+
+.innertext{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 30px;
+}
+
+.btn{
+    background-color:#252525 !important;
+    border: 1px solid white;
+}
+
+.button1{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+
+
+/* footer styling */
+
+footer .main-footer{	
+    padding: 20px 0;	
+    background: #3399ff;
+    color: black;
+    
+}
+
+
+footer ul{	
+    padding-left: 0;	
+    list-style: none;
+}
+
+
+.footer-top{	
+    background: #3399ff;	
+    padding-bottom: 30px;	
+    margin-bottom: 30px;	
+    border-bottom: 3px solid #222;
+}
+
+
+
+
+.typo-light h1, 
+.typo-light h2, 
+.typo-light h3, 
+.typo-light h4, 
+.typo-light h5, 
+.typo-light h6,
+.typo-light p,
+.typo-light div,
+.typo-light span,
+.typo-light small{	color: black;}
+
+.btn{
+    background-color: blue; 
+    color:#fff;
+}
+
+.btn:hover{
+    color: #3399ff;
+    background-color: rgba(0, 0, 255, 0.501);
+
+}
+
+.footAnchor{
+    color: white;
+}
+
+.footer-1{
+    margin-top: 5%;
+}
+
+.anc{
+    color: white !important;
+}
+
+li div a {
+    color: white;
+}
+
+/* HOME PAGE STYLING ENDS HERE */
+
+/* Home remedies PAGE STYLING BEGINS HERE */
+
+.blogimg{
+    width: 100%;
+    height: 300px;
+    background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),  url(../images/honey-3434198_1280.jpg);
+    background-size: cover;
+    text-align: center;
+    color: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.blogtext2{
+    font-size: 30px;
+    color: white;
+    margin-top: 160px;
+    font-weight: bolder;
+    font-family:'Times New Roman', Times, serif;
+    opacity: 2;
+    display: inline-block;
+    z-index: 3;
+}
+
+.hairimg2{
+
+    
+    width: 100%;
+    /* border-radius: 50%; */
+    align-self: center;
+    object-fit: cover;
+    
+}
+
+.hair2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: auto;
+}
+
+.innertext2{
+    text-align: center;
+    padding-top: 10px;
+    /* padding-bottom: 30px; */
+}
+
+/* product carousel styling */
+
+.media-carousel 
+{
+  margin-bottom: 0;
+  padding: 0 40px 30px 40px;
+  margin-top: 30px;
+}
+/* Previous button  */
+.media-carousel .carousel-control.left 
+{
+  left: -12px;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+
+/* Next button  */
+.media-carousel .carousel-control.right 
+{
+  right: -12px !important;
+  background-image: none;
+  background: none repeat scroll 0 0 #222222;
+  border: 4px solid #FFFFFF;
+  border-radius: 23px 23px 23px 23px;
+  height: 40px;
+  width : 40px;
+  margin-top: 30px
+}
+/* Changes the position of the indicators */
+.media-carousel .carousel-indicators 
+{
+  right: 50%;
+  top: auto;
+  bottom: 0px;
+  margin-right: -19px;
+}
+/* Changes the colour of the indicators */
+.media-carousel .carousel-indicators li 
+{
+  background: #c0c0c0;
+}
+.media-carousel .carousel-indicators .active 
+{
+  background: #333333;
+}
+.media-carousel img
+{
+  width: 250px;
+  height: 200px
+}
+
+/* additional styling */
+
+.carouselImg2{
+    object-fit: cover;
+}
+
+.text2{
+    text-align: center;
+    color: black;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.under{
+    text-align: center;
+    background-color: #3399ff;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+/* End carousel */
+
+/* home remedies page ends here */
+
+/* contact us page styling */
+
+
+
+
+
+.sec {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../images/cosmetics-2235577.jpg);
+    background-size: cover;
+}
+
+
+
+.con002 {
+    position: relative;
+    min-width: 1100px;
+    min-height: 550px;
+    display: flex;
+
+    
+}
+
+.con002 .contactInfo {
+    position: absolute;
+    top: 40px;
+    width: 350px;
+    height: calc(100% - 80px);
+    background:#3399ff;
+    color: black;
+    z-index: 1;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 0 20px 25px rgba(0,0,0,0.15);
+}
+
+.container .contactInfo h2{
+    color: black;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.container .contactInfo ul.info {
+    position: relative;
+    margin: 20px 0;
+}
+
+.container .contactInfo ul.info li {
+    position: relative;
+    list-style: none;
+    display: flex;
+    margin: 20px 0;
+    cursor: pointer;
+    align-items: flex-start;
+}
+
+.container .contactInfo ul.info li span:nth-child(1) {
+    width: 30px;
+    min-width: 30px;
+}
+
+.container .contactInfo ul.info li span:nth-child(1) img {
+    max-width: 100%;
+    filter: invert(1);
+}
+
+.container .contactInfo ul.info li span:nth-child(2) {
+    color: #fff;
+    margin-left: 10px;
+    font-weight: 300;
+}
+
+.container .contactInfo ul.sci {
+    position: relative;
+    display: flex;
+}
+
+.container .contactInfo ul.sci li {
+    list-style: none;
+    margin-right: 15px;
+}
+
+.container .contactInfo ul.sci li a {
+    text-decoration: none;
+}
+
+.container .contactInfo ul.sci li a img {
+    filter: invert(1);
+}
+
+.container .contactForm {
+    position: absolute;
+    padding: 70px 50px;
+    padding-left: 250px;
+    margin-left: 150px;
+    width: calc(100% - 150px);
+    height: 100%;
+    background: #fff;
+    box-shadow: 0 50px 50px rgba(0,0,0,0.25);
+}
+
+.container .contactForm h2 {
+     color: #0f3959;
+     font-size: 24px;
+     font-weight: 500;
+}
+
+.container .contactForm .formBox {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+.container .contactForm .formBox .inputBox {
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.container .contactForm .formBox .inputBox.w50 {
+    width: 47%;
+}
+
+.container .contactForm .formBox .inputBox.w100 {
+    width: 100%;
+}
+
+.container .contactForm .formBox .inputBox input,
+.container .contactForm .formBox .inputBox textarea {
+    width: 100%;
+    resize: none;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #777;
+}
+
+.container .contactForm .formBox .inputBox textarea {
+    height: 120px;
+}
+
+.container .contactForm .formBox .inputBox span {
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    font-size: 18px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+.container .contactForm .formBox .inputBox input:focus ~ span,
+.container .contactForm .formBox .inputBox input:valid ~ span,
+.container .contactForm .formBox .inputBox textarea:focus ~ span,
+.container .contactForm .formBox .inputBox textarea:valid ~ span {
+    transform: translateY(-20px);
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #095a55;
+    font-weight: 500; 
+}
+
+.container .contactForm .formBox .inputBox input[type="submit"] {
+    position: relative;
+    cursor: pointer;
+    background: #252525;
+    color: #fff;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+}
+
+.container .contactForm .formBox .inputBox input[type="submit"]:hover {
+    background: rgba(0, 0, 255, 0.066);
+    color: black;
+}
+
+/* media query for responsiveness */
+@media (max-width:1200px) {
+    .con002 {
+        width: 90%;
+        min-width: auto;
+        margin: 20px;
+        box-shadow: 0 20px 50px rgba(0,0,0,0.2);
+    }
+    .container .contactInfo {
+        top: 0;
+        height: 550px;
+        position: relative;
+        box-shadow: none;
+    }
+    .container .contactForm {
+        position: relative;
+        width: calc(100% - 350px);
+        padding-left: 0px;
+        margin-left: 0;
+        padding: 40px;
+        height: 550px;
+        box-shadow: none;
+    }
+}
+
+@media (max-width:991px) {
+  
+    .con002 {
+        display: flex; 
+        flex-direction: column-reverse;
+    }
+    .container .contactForm {
+        width: 100%;
+        height: auto;
+    }
+    .container .contactInfo {
+        width: 100%;
+        height: auto;
+        flex-direction: row;
+    }
+    .container .contactInfo ul.sci {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+@media (max-width:600px) {
+    .container .contactForm {
+        padding: 25px;
+    }
+    .container .contactInfo {
+        padding: 25px;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .container .contactInfo ul.sci {
+        margin-top: 40px;
+    }
+    .container .contactForm .formBox .inputBox.w50 {
+        width: 100%;
+    }
+}
+
+.map1{
+    width: 100%;
+    height: 400px;
+    border: 1px solid white;
+}
+
+
+
+
+
+
+/* contact us page ends here */
+
+/* gallery styling starts here */
+
+.gallery01{
+    width: 100%;
+    height: 300px;
+    color: white;
+    background-color: #3399ff;
+    
+    
+}
+
+.gal{
+
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    height: 300px;
+    justify-content: center;
+}
+
+.gal2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 65px;
+	font-weight: 400;
+	letter-spacing: 3px;
+    line-height: .8;
+    padding-top: 30px;
+}
+
+.gal3{
+    letter-spacing: 7px;
+	font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+
+
+
+.galcon {
+	max-width: 100rem;
+	margin: 0 auto;
+	padding: 0 2rem 2rem;
+    margin-top: 5%;
+}
+
+
+.gallery {
+	display: flex;
+	flex-wrap: wrap;
+	/* Compensate for excess margin on outer gallery flex items */
+	margin: -1rem -1rem;
+}
+
+.gallery-item {
+	/* Minimum width of 24rem and grow to fit available space */
+	flex: 1 0 24rem;
+	/* Margin value should be half of grid-gap value as margins on flex items don't collapse */
+	margin: 1rem;
+	box-shadow: 0.3rem 0.4rem 0.4rem rgba(0, 0, 0, 0.4);
+	overflow: hidden;
+}
+
+.gallery-image {
+	display: block;
+	width: 100%;
+	/* height: 100%; */
+	object-fit: cover;
+	transition: transform 400ms ease-out;
+}
+
+.imgover{
+    overflow: hidden;
+}
+.gallery-image:hover {
+	transform: scale(1.15);
+}
+
+.under2{
+    text-align: center;
+    font-weight: bolder;
+    background-color: #3399ff;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5%;
+}
+
+.under3{
+    /* background-color: rgba(0, 0, 255, 0.066); */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5%;
+    text-align: justify;
+    padding: 10px;
+    
+}
+
+
+
+/* gallery styling ends here */
+
+
+/* tratements page styling starts here */
+
+/* tab styling for treatment page */
+
+.tabcon {
+    width: 75%;
+    margin: 3rem auto;
+}
+.tabtext {
+    color: #345f90;
+    font-size: 24px;
+    line-height: 1.25;
+    font-family: "Roboto Slab", serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.tab-slider--nav {
+    width: 100%;
+    float: left;
+    margin-bottom: 20px;
+}
+.tab-slider--tabs {
+    display: block;
+    float: left;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+    border-radius: 35px;
+    overflow: hidden;
+    background: rgba(0, 0, 255, 0.066);
+    height: 35px;
+    user-select: none;
+}
+.tab-slider--tabs:after {
+    content: "";
+    width: 50%;
+    background: #252525;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    transition: all 250ms ease-in-out;
+    border-radius: 35px;
+}
+.tab-slider--tabs.slide:after {
+    left: 50%;
+}
+.tab-slider--trigger {
+    font-size: 12px;
+    line-height: 1;
+    font-weight: bold;
+    color: black;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 11px 20px;
+    position: relative;
+    z-index: 2;
+    cursor: pointer;
+    display: inline-block;
+    transition: color 250ms ease-in-out;
+    user-select: none;
+}
+.tab-slider--trigger.active {
+    color: #fff;
+}
+.tab-slider--body {
+    margin-bottom: 20px;
+}
+
+.over0{
+    width: 100%;
+    padding-bottom: 20px;
+   
+    
+}
+
+.over2{
+    margin-top: 5%;
+}
+
+.bold{
+    font-weight: bolder;
+}
+
+
+.inOver{
+    text-align: justify;
+}
+
+.overimg{
+    width: 100%;
+}
+
+.caption1{
+    text-align: center;
+    font-weight: bolder;
+    padding-top: 10px;
+}
+
+.text002{
+    text-align: justify;
+    
+}
+
+.bigimg{
+    width: 100%;
+}
+
+/* products page styling starts here */
+
+
+
+/* Reviews from products page styling */
+
+#quote-carousel {
+    padding: 0 10px 30px 10px;
+    margin-top: 60px;
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-indicators {
+    position: relative;
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-top: 20px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    cursor: pointer;
+    border: 1px solid #ccc;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all .4s ease-in;
+    vertical-align: middle;
+}
+#quote-carousel .carousel-indicators .active {
+    width: 128px;
+    height: 128px;
+    opacity: 1;
+    transition: all .2s;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+.item blockquote p:before {
+    content: "“ ";
+    float: left;
+    font-size: 30px;
+    margin-right: 10px;
+}
+
+.item blockquote p:after {
+    content: " ” ";
+    margin-left: 10px;
+}
+
+.textm{
+    font-size: 30px;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+}
+
+
+
+
+/* Reviews ending */
+
+/* tab for products page */
+
+.sec2{
+    padding-left: 5%;
+    margin-top: 100px;
+    
+}
+
+.tabs{
+  width:90%;
+  margin-left: 5%;
+  margin:10px auto;
+  position:relative;
+}
+
+
+.tab-buttons span{
+  font:400 14px 'open sans',sans-serif;
+  color:#333;
+  background:rgba(0, 0, 255, 0.066);
+  cursor:pointer;
+  border-bottom:2px solid #ddd;
+  display:block;
+  width:22.5%;
+  float:left;
+  text-align:center;
+  height:40px;
+  line-height:40px;
+}
+.tab-content{
+    width: 90%;
+    margin-top: 5%;
+  border-bottom:3px solid rgba(0, 0, 255, 0.066);
+  padding:15px;
+  display:inline-block;
+}
+#lamp{
+  width:22.5%;
+  height:2px;
+  background:#333;
+  display:block;
+  position:absolute;
+  top:40px;
+  transition: all .3s ease-in;
+
+}
+#lamp.content2{
+  left:22.5%;
+  transition: all .3s ease-in;
+
+}
+#lamp.content3{
+  left:45%;
+  transition: all .3s ease-in;
+
+}
+#lamp.content1{
+  left:0;
+  transition: all .3s ease-in;
+}
+
+#lamp.content4{
+    left:67.5%;
+    transition: all .3s ease-in;
+  }
+
+  #lamp.content5{
+    left:0%;
+    margin-top: 40px;
+    transition: all .3s ease-in;
+  }
+
+  #lamp.content6{
+    left:22.5%;
+    margin-top: 40px;
+    transition: all .3s ease-in;
+  }
+
+
+  #lamp.content7{
+    left:45%;
+    margin-top: 40px;
+    transition: all .3s ease-in;
+  }
+
+  .tabtext01 {
+    color: #345f90;
+    font-size: 24px;
+    line-height: 1.25;
+    font-family: "Roboto Slab", serif;
+    margin-top: 0px;
+    margin-bottom: 20px;
+}
+
+.text99{
+    font-weight: bolder;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+
+.textjust{
+    text-align: justify;
+}
+
+/* equipments styling */
+
+.equip{
+    width: 100%;
+    height: auto;
+
+    margin-top: 5%;
+    padding-bottom: 20px;
+   
+}
+
+.contain{
+    width: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    
+}
+
+.hairimg29{
+
+    
+    width: 100%;
+    /* border-radius: 50%; */
+    align-self: center;
+    object-fit: cover;
+    
+}
+
+.innertext20{
+    text-align: center;
+    padding-top: 10px;
+    /* padding-bottom: 30px; */
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bolder;
+   
+}
+
+
+/* latest development */
+
+
+   
+    .modal_popup{
+    font-family: 'Josefin Sans', sans-serif;
+    width:100%;
+    height:100%;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    position:fixed;
+    top:0;
+    z-index:999999999;
+    display:none;
+    box-shadow:0px 6px 16px -6px rgba(1,1,1,0.5);
+    background:rgba(1,1,1,0.5);
+    text-align:center;
+    }
+    .modal_popup form{
+    padding:30px;
+    background-image:linear-gradient(rgba(1, 0, 0, 0.732),rgba(2, 2, 2, 0.726)), url("../images/straight2.jpg");
+    background-size:cover;
+    width:60%;
+    position:absolute;
+    left:20%;
+    top:20%;
+    text-align:center;
+    }
+    .modal_popup #close{
+    position:absolute;
+    right:0;
+    top:0;
+    cursor:pointer;
+    background:#1e1e1e;
+    padding:0px 10px;
+    color:#3399ff;
+    font-size:2em;
+    transition:0.2s;
+    }
+    .modal_popup #close:hover{
+    color:#fff;
+    }
+    .modal_popup ul{
+    width:60%;
+    }
+    .modal_popup #sub_title{
+    font-size:0.7em;
+    color:gray;
+    position:static;
+    background:transparent;
+    padding:0px;
+    cursor:default;
+    }
+    .modal_popup ul li{
+    list-style:none;
+    text-align:left;
+    }
+    .modal_popup ul li label,.modal_popup ul li input,.modal_popup ul li button{
+    margin:10px 0px;
+    display:block;
+    }
+    .modal_popup ul li input{
+    padding:15px 10px;
+    width:400px;
+    outline:none;
+    }
+    .modal_popup ul li button{
+    background:#3399ff;
+    outline:none;
+    border:0;
+    border-radius:3px;
+    box-shadow:0px 6px 16px -6px rgba(1,1,1,0.5);
+    padding:10px 20px;
+    color:#fff;
+    transition:0.5s;
+    }
+    .modal_popup ul li button:hover{
+    box-shadow:0px 1px 1px 0px rgba(1,1,1,0.5);
+    }
+    /* Add zooming Animation */
+    .zooming {
+      -webkit-animation: animatezoom 0.5s;
+      animation: animatezoom 0.5s
+    }
+    
+    @-webkit-keyframes animatezoom {
+      from {-webkit-transform: scale(0)} 
+      to {-webkit-transform: scale(1)}
+    }
+      
+    @keyframes animatezoom {
+      from {transform: scale(0)} 
+      to {transform: scale(1)}
+    }
+    @media (max-width:400px){
+    .btn{
+     position:absolute;
+     left:30vw;
+    }
+    .modal_popup form{
+    position:fixed;
+    padding:10px;
+    left:1%;
+    width:90%;
+    margin:1%;
+    }
+    .modal_popup ul li label{
+    font-size:13px; 
+    }
+    .modal_popup h2{
+    font-size:1em;    
+    }
+    .modal_popup ul li input{
+    width:100%;
+    }
+    .modal_popup ul{
+    width:70%;
+    position:relative;
+    left:-30px;
+    }
+    .modal_popup #sub_title{
+    font-size:10px;    
+    }
+    }
+    @media (max-width:600px){
+    .modal_popup form{
+    position:fixed;
+    padding:10px;
+    left:1%;
+    width:90%;
+    margin:1%;
+    }
+    .modal_popup ul li input{
+    width:100%;
+    }
+    .modal_popup ul{
+    width:70%;
+    }
+    }
+    
+    @media (max-width:760px){
+    .modal_popup form{
+    position:fixed;
+    padding:10px;
+    left:1%;
+    width:90%;
+    margin:1%;
+    }
+    .modal_popup ul li input{
+    width:100%;
+    }
+    }
+    
+    @media (max-width:900px){
+    .modal_popup form{
+    position:fixed;
+    padding:10px;
+    left:1%;
+    width:90%;
+    margin:1%;
+    }
+    .modal_popup ul li input{
+    width:100%;
+    }
+    }
+    @media (max-width:980px){
+    .modal_popup form{
+    position:fixed;
+    padding:10px;
+    left:1%;
+    width:90%;
+    margin:1%;
+    }
+    .modal_popup ul li input{
+    width:100%;
+    }
+    .modal_popup ul{
+    width:70%;
+    position:relative;
+    left:-30px;
+    }
+    }
+
+
+    /* product comparison */
+
+    .modal_popup2{
+        font-family: 'Josefin Sans', sans-serif;
+        width:100%;
+        height:100%;
+        display:flex;
+        align-items:center;
+        justify-content:center;
+        position:fixed;
+        top:0;
+        z-index:999999999;
+        display:none;
+        box-shadow:0px 6px 16px -6px rgba(1,1,1,0.5);
+        background:rgba(1,1,1,0.5);
+        text-align:center;
+        
+    
+    
+        
+        
+        }
+        .modal_popup2 form{
+        background-color: white;
+        padding:30px;
+        background-size:cover;
+        width:80%;
+        position:absolute;
+        left:10%;
+        top:15%;
+        text-align:center;
+        height: auto;
+        position: fixed;
+        overflow: scroll;
+    
+        }
+        .modal_popup2 #close{
+        position:absolute;
+        right:0;
+        top:0;
+        cursor:pointer;
+        background:#1e1e1e;
+        padding:0px 10px;
+        color:#3399ff;
+        font-size:2em;
+        transition:0.2s;
+        }
+        .modal_popup2 #close:hover{
+        color:#fff;
+        }
+       
+        
+
+        .test0{
+            float: right;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            border-radius: 20px;
+            font-size: 12PX;
+            font-weight: bold;
+            margin-top: 10px;
+           
+        }
+
+        .test0:hover{
+            color: #3399ff;
+            text-decoration: none;
+            
+
+        }
+
+        .com1{
+          
+            position: relative;
+            height: 900px;
+            overflow-y: scroll;
+            
+        }
+
+        .com0{
+            
+            height: auto;
+            
+        }
+
+        .com3{
+            
+            height: 900px;
+            
+            
+        }
+        
+        .compareimg{
+            width: 100%;
+        }
+
+        .comparetext{
+            
+            display: flex;
+            width: 100%;
+            /* background-color: #3399ff; */
+
+        }
+
+        .comparetext1{
+           
+            text-align: start;
+            background-color: #3399ff;
+        }
+        .comparetext2{
+           
+            text-align: start;
+            background-color: #3399ff;
+        }
+
+        td{
+            text-align: start;
+        }
+
+        table{
+            width: 90%;
+        }
+
+        .hcom{
+            color: black;
+            border-bottom: #3399ff 2px solid;
+            padding: 10px;
+        }
+
+     /* main img section */
+
+      
+      .be1 {
+          font-size: 20px !important;
+          font-family:Arial, Helvetica, sans-serif !important;
+      }
+   
+    #section-1 {
+        /* height: 38em; */
+        color: #fff;
+        /* background-color: #222; */
+        background-image: url(../images/woman-2537564.jpg);
+        opacity: 1;
+        background-size: cover;
+   }
+    #section-1 .content-slider {
+        position: relative;
+        width: 100%;
+        height: 100%;
+       
+   }
+    #section-1 .content-slider input {
+        display: none;
+   }
+    #section-1 .content-slider .slider {
+        position: relative;
+        width: inherit;
+        height: inherit;
+        overflow: hidden;
+   }
+    #section-1 .content-slider .slider .banner {
+        position: absolute;
+        top: 0;
+        left: 0;
+        opacity: 0;
+        z-index: 0;
+        width: inherit;
+        height: inherit;
+        text-align: center;
+        background-repeat: no-repeat;
+        background-position: 50% 50%;
+        transition: all .5s ease;
+   }
+    #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+        height: 100%;
+        padding-top: 6em;
+        background-image: linear-gradient(rgba(2, 1, 1, 0.603),rgba(6, 6, 6, 0.529));
+        box-sizing: border-box;
+   }
+    #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+        padding-bottom: 0.3em;
+        font-family: 'Kaushan Script', cursive;
+        font-weight: 400;
+        font-size: 2.5em;
+        text-transform: none;
+   }
+    #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+        font-size: 6em;
+        line-height: 95%;
+   }
+    #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
+        display: block;
+        width: 4em;
+        height: 0.1875em;
+        margin: 2.5em auto;
+        background: #fff;
+   }
+    #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button {
+        padding-bottom: 5em;
+        z-index: 15 !important;
+   }
+    #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a {
+        padding: 0.5em 2em;
+        text-align: center;
+        font-family: Montserrat, sans-serif;
+        font-size: 0.875em;
+        color: #fff;
+        text-transform: uppercase;
+        border: 0.1875em solid #fff;
+   }
+    #section-1 .content-slider .slider .banner .banner-inner-wrapper .learn-more-button a:hover {
+        color: #3399ff;
+        text-decoration: none;
+        border-color: white;
+        transition: .3s;
+   }
+   
+    #section-1 .content-slider nav {
+        position: absolute;
+        bottom: 0.5em;
+        width: 100%;
+        z-index: 10;
+        text-align: center;
+   }
+    #section-1 .content-slider nav .controls {
+        display: block;
+        width: 70%;
+        margin: 0 auto;
+        font-family: Montserrat, sans-serif;
+        color: #3399ff;
+   }
+    #section-1 .content-slider nav .controls label {
+        position: relative;
+        display: inline-block;
+        width: 20%;
+        height: 3.1em;
+        overflow: hidden;
+        margin: 0 1em;
+        padding-top: 1em;
+        text-align: left;
+        text-transform: uppercase;
+        font-family: Montserrat, sans-serif;
+        font-size: 1em;
+        color: #3399ff;
+        font-weight: 400;
+        cursor: pointer;
+        transition: all .3s;
+   }
+    #section-1 .content-slider nav .controls label .progressbar {
+        position: absolute;
+        top: 0;
+        left: 0;
+        height: 3px;
+        width: 100%;
+        background: black;
+        z-index: 100;
+   }
+    #section-1 .content-slider nav .controls label .progressbar .progressbar-fill {
+        position: inherit;
+        width: inherit;
+        height: inherit;
+        margin-left: -100%;
+        background: #3399ff;
+   }
+    #section-1 .content-slider nav .controls label span {
+        font-size: 1.4em;
+        font-weight: 700;
+   }
+    #section-1 .content-slider nav .controls label:hover {
+        color: black;
+   }
+    #section-1 .content-slider #banner1:checked ~ .slider #top-banner-1, #section-1 .content-slider #banner2:checked ~ .slider #top-banner-2, #section-1 .content-slider #banner3:checked ~ .slider #top-banner-3, #section-1 .content-slider #banner4:checked ~ .slider #top-banner-4 {
+        opacity: 1;
+        z-index: 1;
+   }
+    #section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1), #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2), #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3), #section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) {
+        cursor: default;
+        color: #fff;
+        transition: all .5s;
+   }
+    #section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar, #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2) .progressbar, #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3) .progressbar, #section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar {
+        background: #fff;
+   }
+    #section-1 .content-slider #banner1:checked ~ nav label:nth-of-type(1) .progressbar-fill, #section-1 .content-slider #banner2:checked ~ nav label:nth-of-type(2) .progressbar-fill, #section-1 .content-slider #banner3:checked ~ nav label:nth-of-type(3) .progressbar-fill, #section-1 .content-slider #banner4:checked ~ nav label:nth-of-type(4) .progressbar-fill {
+        animation: progressBarFill 5s linear;
+   }
+    @keyframes progressBarFill {
+        from {
+            margin-left: -100%;
+       }
+        to {
+            margin-left: 0;
+       }
+   }
+    @media only screen and (min-width: 1920px) {
+        
+        .main-header .header-wrapper {
+            width: 57%;
+       }
+        #section-1 {
+            height: 46em;
+       }
+        #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+            padding-top: 12em;
+       }
+   }
+    @media only screen and (max-width: 1919px) {
+       
+        .main-header .header-wrapper {
+            width: 60%;
+       }
+        #section-1 {
+            height: 43em;
+       }
+        #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+            padding-top: 11em;
+       }
+   }
+    @media only screen and (max-width: 1680px) {
+       
+        .main-header .header-wrapper {
+            width: 65%;
+       }
+        #section-1 {
+            height: 40em;
+       }
+        #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+            padding-top: 9em;
+       }
+   }
+    @media only screen and (max-width: 1366px) {
+       
+        .main-header .header-wrapper {
+            width: 70%;
+       }
+   }
+    @media only screen and (max-width: 1120px) {
+        .main-header .header-wrapper .main-menu li {
+            padding: 0.75em 1.4em;
+       }
+        #section-1 {
+            height: 35em;
+       }
+        #section-1 .content-slider nav {
+            bottom: -0.2em;
+       }
+        #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+            padding-top: 7em;
+       }
+        #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
+            margin: 2em auto;
+       }
+   }
+    @media only screen and (max-width: 1024px) {
+       
+        .main-header .header-wrapper .main-menu li {
+            padding: 0.75em 1.3em;
+       }
+        #section-1 .content-slider nav {
+            bottom: 0;
+       }
+        #section-1 .content-slider nav .controls {
+            width: 80%;
+       }
+   }
+    @media only screen and (max-width: 860px) {
+        .main-header .header-wrapper .main-menu li {
+            padding: 0.75em 0.9em;
+       }
+        #section-1 {
+            height: 29em;
+       }
+        #section-1 .content-slider nav {
+            bottom: -1em;
+       }
+        #section-1 .content-slider nav .controls {
+            width: 90%;
+       }
+        #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+            font-size: 2em;
+       }
+        #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+            font-size: 4.5em;
+       }
+        #section-1 .content-slider .slider .banner .banner-inner-wrapper {
+            padding-top: 5em;
+       }
+   }
+    @media only screen and (max-width: 768px) {
+        .main-header .header-wrapper .main-menu li {
+            padding: 0.75em 0.5em;
+       }
+        #section-1 {
+            height: 27em;
+       }
+        #section-1 .content-slider nav .controls {
+            width: 100%;
+       }
+        #section-1 .content-slider nav .controls label {
+            width: 19%;
+            font-size: 0.8em;
+       }
+        #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
+            margin: 1.7em auto;
+       }
+   }
+    @media only screen and (max-width: 650px) {
+        .main-header .header-wrapper {
+            width: 95%;
+       }
+   }
+    @media only screen and (max-width: 480px) {
+        .main-header .header-wrapper {
+            width: 97%;
+       }
+        .main-header .header-wrapper .main-logo {
+            display: none;
+       }
+        .main-header .header-wrapper .main-menu li {
+            padding: 0.2em 0.3em;
+       }
+        .main-header .header-wrapper .main-menu li:last-child, .main-header .header-wrapper .main-menu li:nth-child(6) {
+            padding: 0.2em 0.7em;
+       }
+        #section-1 {
+            height: 26em;
+       }
+        #section-1 .content-slider nav {
+            bottom: -0.5em;
+       }
+        #section-1 .content-slider nav .controls label {
+            width: 40%;
+            font-size: 0.7em;
+       }
+        #section-1 .content-slider .slider .banner .banner-inner-wrapper h2 {
+            font-size: 1.5em;
+       }
+        #section-1 .content-slider .slider .banner .banner-inner-wrapper h1 {
+            font-size: 3em;
+       }
+        #section-1 .content-slider .slider .banner .banner-inner-wrapper .line {
+            margin: 1.7em auto;
+       }
+   }
+    
+
+      

@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Haircare | Home</title>
+    <link rel="shortcut icon" href="./images/icon2.jpg" type="image/x-icon">
+
+    <!-- internal boostrap -->
+    <script src="./Javascript/jquery.js"></script>
+    <link rel="stylesheet" href="./bootstrap-3.4.1/dist/css/bootstrap.css">
+    <script src="./bootstrap-3.4.1/dist/js/bootstrap.js"></script>
+    
+    <!-- external javascript -->
+    <script src="./Javascript/project.js"></script>
+
+    <!-- external css -->
+    <link rel="stylesheet" href="./CSS/style.css">
+    
+</head>
+<body>
+
+    <!-- navigation bar -->
+    
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+       
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="./index.html"><img class="navimg" src="./images/logo.jpg" alt=""></a>
+        </div>
+    
+        
+        <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <ul class="nav navbar-nav">
+                <li class="active"><a class="navColor" href="./index.html">Home</a></li>
+                <li><a class="navColor" href="./Pages/gallery.html">Gallery</a></li>
+            </ul>
+            <ul class="nav navbar-nav navbar-right">
+                <li><a class="navColor" href="./Pages/contact.html">Contact</a></li>
+                <li><a class="navColor" href="./Pages/HomeRemedies.html">Home Remedies</a></li>
+                
+                <li class="dropdown">
+                    <a class="navColor" href="#" class="dropdown-toggle" data-toggle="dropdown">Menu <b class="caret"></b></a>
+                    <ul class="dropdown-menu">
+                        <li class="dropdown-submenu">
+                            <a class="test" tabindex="-1" href="#">Treatments<span class="caret"></span></a>
+                            <ul class="dropdown-menu">
+                              <li><a tabindex="-1" href="./Pages/hairloss.html">Hair Loss</a></li>
+                              <li><a tabindex="-1" href="./Pages/graying.html">Graying</a></li>
+                              <li><a tabindex="-1" href="./Pages/slowgrowth.html">Slow Growth</a></li>
+                              <li><a tabindex="-1" href="./Pages/baldness.html">Premature Baldness</a></li>
+                            </ul>
+                        </li>
+                        <li role="presentation" class="divider"></li>
+                        <li class="dropdown">
+                            <a class="test" tabindex="-1" href="./Pages/equipments.html">Equipments</a>
+                           
+                        </li>
+                        <li role="presentation" class="divider"></li>
+                        <li class="dropdown">
+                            <a class="test" tabindex="-1" href="./Pages/products.html">Products</a>
+                            
+                        </li>
+                        <li role="presentation" class="divider"></li>
+                        <li class="dropdown-submenu">
+                            <a class="test" onclick="open_newsletter_modal()" tabindex="-1" href="#">Latest Development<span ></span></a>
+                        </li>
+                      
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- end of navigation  -->
+
+    <!-- home page image -->
+
+    <div class="main">
+        <section id="section-1">
+            <div class="content-slider">
+              <input type="radio" id="banner1" class="sec-1-input" name="banner" checked>
+              <input type="radio" id="banner2" class="sec-1-input" name="banner">
+              <input type="radio" id="banner3" class="sec-1-input" name="banner">
+              <input type="radio" id="banner4" class="sec-1-input" name="banner">
+              <div class="slider">
+                <div id="top-banner-1" class="banner">
+                  <div class="banner-inner-wrapper">
+                    <h2 class="be1">BEST HAIR WEBSITE</h2>
+                    <h1>WELCOME<br>TO HAIR CARE</h1>
+                    <div class="line"></div>
+                    <div class="learn-more-button"><a href="./Pages/products.html">Learn More</a></div>
+                  </div>
+                </div>
+                <div id="top-banner-2" class="banner">
+                  <div class="banner-inner-wrapper">
+                    <h2 class="be1">WHAT WE DO</h2>
+                    <h1>BEST HAIR<br> CARE TIPS</h1>
+                    <div class="line"></div>
+                    <div class="learn-more-button"><a href="./Pages/HomeRemedies.html">Open Tips</a></div>
+                  </div>
+                </div>
+                <div id="top-banner-3" class="banner">
+                  <div class="banner-inner-wrapper">
+                    <h2 class="be1">GALLERY</h2>
+                    <h1>EXPLORE HAIR CARE <br> GALLERY</h1>
+                    <div class="line"></div>
+                    <div class="learn-more-button"><a href="./Pages/gallery.html">Open Gallery</a></div>
+                  </div>
+                </div>
+                <div id="top-banner-4" class="banner">
+                  <div class="banner-inner-wrapper">
+                    <h2 class="be1">EQUIPMENTS</h2>
+                    <h1>VARIOUS HAIR CARE<br>EQUIPMENTS</h1>
+                    <div class="line"></div>
+                    <div class="learn-more-button"><a href="./Pages/equipments.html">Open Equipments</a></div>
+                  </div>
+                </div>
+              </div>
+              <nav>
+                <div class="controls">
+                  <label for="banner1"><span class="progressbar"><span class="progressbar-fill"></span></span><span>01</span> Products</label>
+                  <label for="banner2"><span class="progressbar"><span class="progressbar-fill"></span></span><span>02</span> Tips</label>
+                  <label for="banner3"><span class="progressbar"><span class="progressbar-fill"></span></span><span>03</span> Gallery</label>
+                  <label for="banner4"><span class="progressbar"><span class="progressbar-fill"></span></span><span>04</span> Equipments</label>
+                </div>
+              </nav>
+            </div>
+          </section>
+        
+
+
+    </div>
+
+    <!-- for home page serve you section -->
+
+    <!-- <section class="serve">
+        <div class="container">
+            <h3>BEST HAIR PRODUCTS </h3>
+            <h1>We Are Here To Serve You</h1>
+        </div>
+    </section> -->
+
+    <!-- carousel -->
+    
+    <div class="container">
+        
+        <div id="carousel-id" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-id" data-slide-to="0" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="1" class=""></li>
+                <li data-target="#carousel-id" data-slide-to="2" class="active"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="item">
+                    <img data-src="holder.js/900x500/auto/#777:#7a7a7a/text:First slide" alt="First slide" src="./images/beauty.jpg">
+                  
+                </div>
+                <div class="item">
+                    <img data-src="holder.js/900x500/auto/#666:#6a6a6a/text:Second slide" alt="Second slide" src="./images/beauty2.jpg">
+                   
+                </div>
+                <div class="item active">
+                    <img data-src="holder.js/900x500/auto/#555:#5a5a5a/text:Third slide" alt="Third slide" src="./images/beauty3.jpg">
+                   
+                </div>
+            </div>
+            <a class="left carousel-control" href="#carousel-id" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+            <a class="right carousel-control" href="#carousel-id" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+        </div>
+        
+    </div>
+
+    <!-- welcome section -->
+
+    <div class="container wel0">
+        <div class="wel1">
+            <!-- <h2>WELCOME TO</h2> -->
+            <img class="welImg" src="./images/logo.jpg" alt="">
+            <!-- <h2>WORLD</h2> -->
+
+        </div>
+        <div class="wel2">
+            Haircare is a professional exporter and manufacturer specializing in research, development and production of hair equipments, hair treatement products and general haircare accessories.
+        </div>
+        
+    </div>
+
+    <!-- home page categories -->
+
+    <div class="container">
+        <div  class="col-sm-12 con12">
+            <div class="col-sm-4 con6">
+                
+                <p class="overlay">HAIR LOSS IN <br> WOMEN</p>
+
+            </div>
+            <div class="col-sm-4 con7">
+                <p class="overlay">HAIR <br> STRAIGHTENERS</p>
+                
+            </div>
+            <div class="col-sm-4 con8">
+                <p class="overlay">MASSAGER <br> SERIES</p>
+              
+            </div>
+    
+        </div>
+
+        <div  class="col-sm-12 con12">
+            <div class="col-sm-4 con9">
+                
+                <p class="overlay">HAIR CARE <br> OILS</p>
+
+            </div>
+            <div class="col-sm-4 con10">
+                <p class="overlay">BEST HAIR <br> SHAMPOOS</p>
+                
+            </div>
+            <div class="col-sm-4 con11">
+                <p class="overlay">HAIR + SALON <br> EQUIPMENTS</p>
+              
+            </div>
+    
+        </div>
+
+    </div>
+
+    <!-- haircare products -->
+
+    <section class="haircare">
+        <div class="container">
+            <div  class="col-sm-12 haircon">
+             
+                    <h4 class="hairtext">HairCare Products</h4>
+
+            
+                
+                <div class="col-sm-4 hair1">
+                    
+                    
+                    <img class="hairimg" src="./images/S1.png.webp" alt="">
+                    <p class="innertext">ULTRA HYDRATING SHAMPOO</p>
+
+    
+                </div>
+                <div class="col-sm-4 hair1">
+                    <img class="hairimg" src="./images/S2.png.webp" alt="">
+                    <p class="innertext">OIL INFUSED CONDITIONER</p>
+                    
+                </div>
+                <div class="col-sm-4 hair1">
+                    <img class="hairimg" src="./images/S3.png.webp" alt="">
+                    <p class="innertext">HAIR OIL</p>
+                  
+                </div>
+               
+        
+            </div>
+
+            <div class="button1">
+                <a href="./Pages/products.html"><button style="text-align: center;" type="button" class="btn btn-default">VIEW PRODUCTS</button></a>
+            </div>
+
+            
+           
+            
+
+        </div>
+
+     
+    </section>
+
+    <!-- latest development popup -->
+<div class="modal_popup" id="modal_popup">
+    <form action="" class=" zooming" method="post">
+    <span id="close" onclick="close_newsletter_modal()">&times;</span>
+    <h2 style="color: #3399ff; font-size: 30px;">Latest Developments</h2>
+    <p style="color: white; font-size: 15px;" id="sub_title">Be informed about the latest Developments, Subscribe Now!</p>
+    <center>
+    <ul>
+    <li>
+    <label style="color: #3399ff;" for="subscribe_newsletter">Enter Your Email-Address</label>
+    <input type="email" name="email" id="subscribe_newsletter" placeholder="eg:haircare@gmail.com" required/>
+    </li>
+    <li><button type="submit">Subscribe</button></li>
+    </ul>
+    </center>
+    </form>
+    </div>
+    <!-- latest development end here -->
+
+
+
+    <!-- FOOTER -->
+
+   
+    <footer id="footer" class="footer-1 ">
+        <!-- <svg  viewBox="0 -20 700 110" width="100%" height="110" preserveAspectRatio="none">
+            <path  transform="translate(0, -20)" d="M0,10 c80,-22 240,0 350,18 c90,17 260,7.5 350,-20 v50 h-700" fill="#3399ff" />
+            <path d="M0,10 c80,-18 230,-12 350,7 c80,13 260,17 350,-5 v100 h-700z" fill="#3399ff" /> -->
+            
+        <div class="main-footer widgets-dark typo-light  ">
+            <div class="container   ">
+            <div class="row">
+              
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget subscribe no-box">
+            <h5 class="widget-title">HairCare<span></span></h5>
+            <p>Haircare world is a professional exporter and manufacturer specializing in research, development and production of hair equipments, hair treatement products and general haircare accessories. </p>
+            </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+            <h5 class="widget-title">Quick Links<span></span></h5>
+            <ul class="thumbnail-widget">
+            <li>
+            <div class="thumb-content"><a href="./Pages/gallery.html">Gallery</a></div>	
+            </li>
+            <li>
+            <div class="thumb-content"><a href="./Pages/equipments.html">Equipments</a></div>	
+            </li>
+            <li>
+            <div class="thumb-content"><a href="./Pages/products.html">Products</a></div>	
+            </li>
+            <li>
+            <div class="thumb-content"><a href="./Pages/hairloss.html">Treatments</a></div>	
+            </li>
+            <li>
+            <div class="thumb-content"><a href="./Pages/HomeRemedies.html">Home Remedies</a></div>	
+            </li>
+            <li>
+            <div class="thumb-content"><a href="./Pages/products.html">Hair Oils</a></div>	
+            </li>
+            <li>
+            <div class="thumb-content"><a href="./Pages/contact.html">Contact</a></div>	
+            </li>
+            </ul>
+            </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            <div class="widget no-box">
+            <h5 class="widget-title">Get Started<span></span></h5>
+            <p>Stay up to date with new products release</p>
+            <a onclick="open_newsletter_modal()" class="btn" href="#" >Subscribe Now</a>
+            </div>
+            </div>
+            
+            <div class="col-xs-12 col-sm-6 col-md-3">
+            
+            <div class="widget no-box">
+            <h5 class="widget-title">Contact Us<span></span></h5>
+            
+            <p><a class="footAnchor" href="mailto:enquiry@haircare.com" title="glorythemes">enquiry@haircare.com</a></p>
+        
+            </div>
+            </div>
+            
+            </div>
+            </div>
+            </div>
+              
+            <div class="footer-copyright">
+            <div class="container">
+            <div class="row">
+            <div class="col-md-12 text-center">
+            <p>Copyright HairCare © 2022. All rights reserved.</p>
+            </div>
+            </div>
+            </div>
+        </div>
+    
+
+    </footer>
+  
+    
+   
+   
+    
+</body>
+</html>
